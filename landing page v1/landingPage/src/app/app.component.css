@@ -1,0 +1,53 @@
+:root{
+  --montserrat: 'Montserrat', sans-serif;
+  --inter: 'Inter', sans-serif;
+  --ubuntu: 'Ubuntu', sans-serif;
+  --tx-title: 30px;
+  --cl-primary: black;
+  --cl-secondary: white;
+  --cl-button: #00B8FC;
+  --cl-tertiary: rgba(23, 23, 23, 1);
+}
+*{
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+/*text design*/
+.text{
+  font-family: var(--ubuntu);
+  font-weight: 300;
+}
+.btn-text{
+  font-family: var(--inter);
+  font-weight: 300;
+  color: var(--cl-button);
+}
+.title{
+  font-family: var(--montserrat);
+  font-weight: bolder;
+}
+.subtitles{
+  font-family: var(--montserrat);
+  font-weight: normal;
+}
+/*text colors*/
+.white{
+  color: var(--cl-secondary);
+}
+.black{
+  color: var(--cl-primary);
+}
+/*backgrounds*/
+.bg-black{
+  background: var(--cl-primary);
+}
+.bg-gray{
+  background: var(--cl-tertiary);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
